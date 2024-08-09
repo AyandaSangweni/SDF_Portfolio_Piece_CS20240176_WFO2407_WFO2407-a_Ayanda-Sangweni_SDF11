@@ -24,18 +24,18 @@
                     <img class="h-8" src="assets\component-1\navigation\cache-bank-logo.png"/>
                 </div>
                 <div class="hidden md:flex items-center justify-between gap-12 text-black">
-                  <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
-                    Product
-                  </a>
-                  <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
-                    Features
-                  </a>
-                  <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
-                    Get Started
-                  </a>
-                  <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
-                    Contact
-                  </a>
+                    <a href="#product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                      Product
+                    </a>
+                    <a href="#features" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                        Features
+                    </a>
+                    <a href="#getStarted" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                        Get Started
+                    </a>
+                    <a href="#contact" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                        Contact
+                    </a>
                 </div>
                 
                 <!-- Buttons -->
@@ -47,8 +47,8 @@
                         Sign Up
                     </button>
                 </div>
-                
-                <!-- SVG for mobile menu icon -->
+
+                <!--SVG for mobile menu icon -->
                 <button class="md:hidden p-4" id="mobile-menu-toggle">
                     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6" fill="none" xmlns="https://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_429_11066)">
@@ -62,17 +62,17 @@
                     </svg>
                 </button>
                 <div class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full" id="mobile-menu">
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                    <a href="#product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
                         Product
                     </a>
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                    <a href="#features" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
                         Features
                     </a>
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
-                        Get Started
+                    <a href="#contact" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                        Pricing
                     </a>
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
-                        Contact
+                    <a href="#company" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
+                        Company
                     </a>
                     <button class="flex items-center text-sm font-normal text-black">
                         Log In
@@ -88,7 +88,7 @@
             <!-- Hero and Endorsements-->
             <!-- Hero -->
             <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5 px-20">
-                <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
+                <div class="flex flex-col justify-center col-span-1 text-center lg:text-start" id="product">
                     <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
                         The Clever Place to Keep Your Cache
                     </h1>
@@ -152,7 +152,7 @@
             <!-- COMPONENT 3 -->
             
             <!--Features -->
-            <div class="container mx-auto py-10 flex flex-col items-center justify-center">
+            <div class="container mx-auto py-10 flex flex-col items-center justify-center" id="features">
                 <div class="flex flex-col items-center justify-center mt-12">
                     <h1 class="mb-4 text-4xl font-extrabold text-dark-grey-900 text-center">
                         Elevate Your Banking with Cache
@@ -305,7 +305,7 @@
             </div>
             
             <!-- Getting Started -->
-            <div class="w-full">
+            <div class="w-full" id="getStarted">
                 <div class="container flex flex-col items-center gap-16 mx-auto my-32">
                     <div class="grid w-full grid-cols-1 gap-32 lg:grid-cols-2">
                         <div class="bg-cover bg-center hidden lg:block rounded-3xl">
@@ -401,7 +401,7 @@
 
             <!-- Contact and Footer-->
             <!-- Contact -->
-            <div class="w-full">
+            <div class="w-full" id="contact">
                 <div class="container flex flex-col items-center gap-16 mx-auto my-32">
                     <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                         <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
@@ -440,7 +440,7 @@
         </div>
 
         <!-- Footer-->
-        <div class="w-full bg-green-500">
+        <div class="w-full bg-green-500" id="company">
             <div class="container flex flex-col mx-auto">
                 <div class="flex flex-col items-center w-full mt-20 mb-5">
                     <div class="flex flex-col items-center gap-6 mb-8">
