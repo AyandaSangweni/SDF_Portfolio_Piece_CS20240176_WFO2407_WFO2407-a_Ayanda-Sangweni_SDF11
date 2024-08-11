@@ -1,19 +1,19 @@
-# Installation
+# Cache Bank Landing Page
 
-```
-# Install dependencies
-npm install
+## Project Overview
 
-# Start the development server with live preview using Browsersync
-npm run browsersync
+Welcome to the Cache Bank Landing Page project! This project involves creating a responsive and user-friendly landing page for a fictitious banking solution called Cache Bank. The aim was to design a website that clearly presents Cache Bank's services and encourages user engagement with intuitive navigation and interactive features.
 
-# Compile Tailwind CSS
-npm run build
+## Tech Stack
 
-# Compile Tailwind CSS minified
-npm run build-minify
+- **HTML5**: Provides the structure of the web page.
+- **CSS3**: Used for styling, with Tailwind CSS as the primary framework.
+- **JavaScript**: Adds interactivity to the page.
 
-```
+## Loom Video
 
-# Presentation Talking Points and Presentation Slide Template
-Check out the Project Overview in this GitHub Repo for the guide to talking points for your presentation as well the starter template for your Google Slides here: https://github.com/CodeSpace-Academy/SDF_Portfolio_Piece_StudentNo_Classcode_Group_Name-Surname_SDF11/blob/main/11_portfolio_piece_1.md
+Watch the walkthrough of the project and code on Loom: https://www.loom.com/share/cc088d9c38294366919ae90c088719d8?sid=22be5326-12ed-4b2c-b058-d6cc81e55504
+
+## Presentation Slides
+
+View the presentation slides for a detailed explanation of the project and code: https://docs.google.com/presentation/d/1xe0BhV33VGurLNEiI1h-tQIHJj1ziSnsAYyVj8avUX8/edit?usp=sharing
